@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <title>Тренеры | PulseFit Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="light-theme">
+
+  <header class="header">
+    <div class="logo-container">
+      <img src="images/logo.png" alt="PulseFit Studio" class="logo-img">
+      <div class="logo-text">PulseFit Studio</div>
+    </div>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="trainers.html" class="active">Тренеры</a></li>
+        <li><a href="index.html#schedule">Расписание</a></li>
+        <li><a href="index.html#pricing">Цены</a></li>
+        <li><button id="themeToggle" aria-label="Переключить тему">🌙</button></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Меню">☰</button>
+  </header>
+
+  <section class="hero trainers-hero">
+    <div class="hero-content container">
+      <h1>Наши тренеры</h1>
+      <p class="hero-subtitle">Профессионалы с международной сертификацией, которые помогут вам достичь целей</p>
+    </div>
+    <div class="hero-overlay"></div>
+  </section>
+
+  <section class="trainers section-padding">
+    <div class="container">
+      <div class="section-intro">
+        <h2 class="section-title">Команда экспертов</h2>
+        <p class="section-subtitle">Наши тренеры имеют высшее спортивное образование и многолетний опыт работы</p>
+      </div>
+      
+      <div class="trainers-grid">
+        <div class="trainer-card" data-aos="fade-up">
+          <div class="trainer-image">
+            <img src="images/trainer1.jpg" alt="Алексей Петров" loading="lazy">
+            <div class="trainer-social">
+              <a href="#" aria-label="Instagram Алексея"><img src="images/instagram.svg" alt="Instagram"></a>
+              <a href="#" aria-label="Telegram Алексея"><img src="images/telegram.svg" alt="Telegram"></a>
+            </div>
+          </div>
+          <div class="trainer-info">
+            <h3>Алексей Петров</h3>
+            <div class="trainer-spec">Функциональный тренинг, HIIT</div>
+            <div class="trainer-experience">Опыт: 8 лет</div>
+            <p>Мастер спорта по легкой атлетике. Специализируется на функциональных тренировках и подготовке к марафонам.</p>
+            <ul class="trainer-certificates">
+              <li>NASM Certified Personal Trainer</li>
+              <li>ACE Functional Training Specialist</li>
+            </ul>
+            <a href="#form" class="btn btn-outline btn-small">Записаться</a>
+          </div>
+        </div>
+        
+        <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="trainer-image">
+            <img src="images/trainer2.jpg" alt="Наталья Смирнова" loading="lazy">
+            <div class="trainer-social">
+              <a href="#" aria-label="Instagram Натальи"><img src="images/instagram.svg" alt="Instagram"></a>
+              <a href="#" aria-label="Telegram Натальи"><img src="images/telegram.svg" alt="Telegram"></a>
+            </div>
+          </div>
+          <div class="trainer-info">
+            <h3>Наталья Смирнова</h3>
+            <div class="trainer-spec">Йога, Пилатес, Стретчинг</div>
+            <div class="trainer-experience">Опыт: 10 лет</div>
+            <p>Сертифицированный инструктор по хатха-йоге и пилатесу. Поможет улучшить осанку, гибкость и снять стресс.</p>
+            <ul class="trainer-certificates">
+              <li>RYT 500 Yoga Alliance</li>
+              <li>Stott Pilates Certified</li>
+            </ul>
+            <a href="#form" class="btn btn-outline btn-small">Записаться</a>
+          </div>
+        </div>
+        
+        <div class="trainer-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="trainer-image">
+            <img src="images/trainer3.jpg" alt="Денис Иванов" loading="lazy">
+            <div class="trainer-social">
+              <a href="#" aria-label="Instagram Дениса"><img src="images/instagram.svg" alt="Instagram"></a>
+              <a href="#" aria-label="Telegram Дениса"><img src="images/telegram.svg" alt="Telegram"></a>
+            </div>
+          </div>
+          <div class="trainer-info">
+            <h3>Денис Иванов</h3>
+            <div class="trainer-spec">Кроссфит, Силовые тренировки</div>
+            <div class="trainer-experience">Опыт: 6 лет</div>
+            <p>Чемпион региона по кроссфиту. Специализируется на силовых тренировках и подготовке к соревнованиям.</p>
+            <ul class="trainer-certificates">
+              <li>CrossFit Level 2 Trainer</li>
+              <li>NSCA Certified Strength Coach</li>
+            </ul>
+            <a href="#form" class="btn btn-outline btn-small">Записаться</a>
+          </div>
+        </div>
+        
+        <div class="trainer-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="trainer-image">
+            <img src="images/trainer4.jpg" alt="Екатерина Волкова" loading="lazy">
+            <div class="trainer-social">
+              <a href="#" aria-label="Instagram Екатерины"><img src="images/instagram.svg" alt="Instagram"></a>
+              <a href="#" aria-label="Telegram Екатерины"><img src="images/telegram.svg" alt="Telegram"></a>
+            </div>
+          </div>
+          <div class="trainer-info">
+            <h3>Екатерина Волкова</h3>
+            <div class="trainer-spec">Персональный тренинг, Коррекция веса</div>
+            <div class="trainer-experience">Опыт: 7 лет</div>
+            <p>Специалист по коррекции веса и реабилитации после травм. Индивидуальный подход к каждому клиенту.</p>
+            <ul class="trainer-certificates">
+              <li>ACE Certified Personal Trainer</li>
+              <li>Precision Nutrition Level 1</li>
+            </ul>
+            <a href="#form" class="btn btn-outline btn-small">Записаться</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section section-padding bg-dark">
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <h2>Готовы начать?</h2>
+        <p>Запишитесь на пробное занятие к любому из наших тренеров и получите индивидуальную консультацию</p>
+        <a href="#form" class="btn btn-primary">Записаться сейчас</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo-white.png" alt="PulseFit Studio" class="logo-img">
+          <div class="logo-text">PulseFit Studio</div>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Навигация</h4>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="trainers.html">Тренеры</a></li>
+              <li><a href="index.html#schedule">Расписание</a></li>
+              <li><a href="index.html#pricing">Цены</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h4>Контакты</h4>
+            <ul>
+              <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+              <li><a href="mailto:info@pulsefit.ru">info@pulsefit.ru</a></li>
+              <li>г. Москва, ул. Фитнесная, 15</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 PulseFit Studio. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
